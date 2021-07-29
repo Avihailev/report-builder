@@ -8,6 +8,14 @@
     <artifactId>report-builder</artifactId>
     <version>0.1</version>
 
+    <distributionManagement>
+        <repository>
+            <id>report-builder</id>
+            <name>Report Builder</name>
+            <url>https://maven.pkg.github.com/avihailevi/report-builder</url>
+        </repository>
+    </distributionManagement>
+
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
